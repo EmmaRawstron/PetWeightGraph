@@ -48,7 +48,7 @@ fig.add_trace(
            showlegend=False,
            hoverinfo='skip',  # Skip the default hoverinfo
            hovertemplate='<b>Total Weight</b>: %{y} lb<br>' +
-                         '<b>Total Count</b>: '+ totalCount.map(str) + ' %{x}s' + '<br>' +
+                         '<b>Total Count</b>: '+ totalCount.map(str) + ' %{x}' + '<br>' +
                          '<b>Average Weight</b>: ' + averageWeight.round(2).map(str) + ' lb' +
                          '<extra></extra>'),  # Custom hover template with no extra info
     row=1, col=1
@@ -101,14 +101,14 @@ fig.update_layout(
             ]),
         )
     ],
-    width=1000,   # Adjust this value to set the width
-    height=800,  # Adjust this value to set the height
+    width=1000,
+    height=800,
     title="Pet Weights Comparison",
     title_x=0.5,  # This places the title in the center
     legend=dict(
-        x=1,  # Adjust these values to position the legend
-        xanchor='auto',  # This anchors the legend to the right
-        y=1,  # Adjust these values to position the legend
+        x=1,  # Position the legend
+        xanchor='auto',  # Anchors the legend to the right
+        y=1,  # Position the legend
         traceorder="normal",
         font=dict(
             family="sans-serif",
