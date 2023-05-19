@@ -28,4 +28,4 @@ To use this project, follow these steps:
 3. Run the Python script: `python pet_weight_data_viz.py`.
 4. Open the generated 'pet_graph.html' file in your browser to view the visualization.
 
-This project also includes a 'myplot.html' file, which is a standalone HTML file containing the visualization. You can view this file in any web browser.
+This project also includes a 'pet_graph.html' file, which is a standalone HTML file containing the visualization. You can view this file in any web browser.
