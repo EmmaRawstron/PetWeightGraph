@@ -7,7 +7,7 @@ This project visualizes data from a pet dataset using Python and Plotly. The dat
 The dataset used for this project, 'pet_data.csv', includes the following columns:
 
 - 'petID': Unique identifier for each pet.
-- 'species': The species of the pet ('cat', 'dog', or 'shingleback lizard').
+- 'species': The species of the pet ('cat', 'dog', or 'shinglebackLizard').
 - 'weight': The weight of the pet.
 
 ## Visualization
